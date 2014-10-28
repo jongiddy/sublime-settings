@@ -1,4 +1,4 @@
 {
-	"cmd": ["pandoc", "-S", "-s", "-f", "markdown", "-t", "docx", "-o", "C:/Users/Jon Giddy/Documents/Created/$file_base_name.docx", "$file_name"],
+	"cmd": ["pandoc", "-S", "-s", "-f", "markdown", "-t", "docx", "-o", "${file_base_name}.docx", "$file"],
 	"selector": "text.html.markdown"
 }

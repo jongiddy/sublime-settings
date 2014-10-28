@@ -12,3 +12,7 @@ Personal settings for Sublime Text 3
 ## Other Actions
 
 Ensure `git` and `gitk` are in `PATH`.
+
+Install `pandoc` from http://johnmacfarlane.net/pandoc/installing.html
+
+Restart Sublime Text to ensure it can see the new PATH.
