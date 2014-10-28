@@ -1,0 +1,21 @@
+{
+	"trim_trailing_white_space_on_save": true,
+	"default_line_ending": "unix",
+	"translate_tabs_to_spaces": true,
+	"ensure_newline_at_eof_on_save": true,
+	"rulers":
+	[
+		79, 99
+	],
+	// 
+	"anaconda_gutter_marks": true,
+	"pep8_ignore": [
+	"E127",
+	"E128",
+	"E501"
+	],
+	"pep8_max_line_length": 159,
+	// "complete_parameters": true,
+	// "complete_all_parameters": true,
+	"display_signatures": true,
+}
