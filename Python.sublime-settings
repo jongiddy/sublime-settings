@@ -6,16 +6,13 @@
 	// PEP8 recommended line lengths
 	"rulers":
 	[
-		79, 99
+		72, 79, 99
 	],
 	// Anaconda
 	"anaconda_gutter_marks": true,
 	"pep8_ignore": [
-	"E127",
-	"E128",
-	"E501"
+		"E126",  // E126 doesn't like PEP8-approved double-tab on continuation
 	],
-	// "complete_parameters": true,
-	// "complete_all_parameters": true,
+	"complete_parameters": true,
 	"display_signatures": true,
 }
