@@ -4,6 +4,7 @@ Personal settings for Sublime Text 3
 
 ## Installed Packages
 - Anaconda
+- Better CoffeeScript
 - Markdown Preview
 - SideBarEnhancements
 - SideBarGit
