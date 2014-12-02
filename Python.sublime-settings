@@ -13,6 +13,5 @@
 	"pep8_ignore": [
 		"E126",  // E126 doesn't like PEP8-approved double-tab on continuation
 	],
-	"complete_parameters": true,
 	"display_signatures": true,
 }
