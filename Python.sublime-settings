@@ -9,12 +9,22 @@
 		72, 79, 99, 119
 	],
 	// Anaconda
-	"anaconda_gutter_marks": false,
+	"anaconda_gutter_theme": "simple",
+	"anaconda_linter_mark_style": "none",
+	"anaconda_linter_underlines": true,
+	"auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
 	"pep8_ignore": [
 		"E126",  // E126 doesn't like PEP8-approved double-tab on continuation
 	],
 	// Prefer to use rulers to identify over-long lines, but complain about
 	// lines that are longer than 120 characters
 	"pep8_max_line_length": 120,
+	"complete_parameters": true,
 	"display_signatures": true,
+	"validate_imports": true,
+	"pep257": true,
+	"pep257_ignore": [
+		"D203", // not present in PEP257 now, not commonly implemented
+	]
+
 }
