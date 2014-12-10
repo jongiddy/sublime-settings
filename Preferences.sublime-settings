@@ -15,4 +15,8 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
+	// Opening a preview tab when file is single-clicked is annoying,
+	// especially when using SidebarEnhancements, such as Delete File.
+	// Also, when accidentally clicking on really large binary files.
+	"preview_on_click": false,
 }
