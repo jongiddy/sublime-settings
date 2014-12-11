@@ -9,8 +9,9 @@
 		72, 79, 99, 119
 	],
 	// Anaconda
+	"anaconda_gutter_marks": true,
 	"anaconda_gutter_theme": "simple",
-	"anaconda_linter_mark_style": "none",
+	"anaconda_linter_mark_style": "fill",
 	"anaconda_linter_underlines": true,
 	"auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
 	"pep8_ignore": [
