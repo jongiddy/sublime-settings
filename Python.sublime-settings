@@ -25,6 +25,7 @@
 	"validate_imports": true,
 	"pep257": true,
 	"pep257_ignore": [
+		"D100",	"D101",	"D102",	"D103", // ignore missing docstrings
 		"D203", // not present in PEP257 now, not commonly implemented
 	]
 
