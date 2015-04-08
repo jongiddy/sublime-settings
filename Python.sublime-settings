@@ -11,7 +11,7 @@
 	// Anaconda
 	"anaconda_gutter_marks": true,
 	"anaconda_gutter_theme": "simple",
-	"anaconda_linter_mark_style": "fill",
+	"anaconda_linter_mark_style": "outline",
 	"anaconda_linter_underlines": true,
 	"auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
 	"pep8_ignore": [
@@ -19,13 +19,14 @@
 	],
 	// Prefer to use rulers to identify over-long lines, but complain about
 	// lines that are longer than 120 characters
-	"pep8_max_line_length": 120,
+	"pep8_max_line_length": 79,
 	"complete_parameters": true,
 	"display_signatures": true,
-	"validate_imports": true,
-	"pep257": true,
+	"validate_imports": false,
+	"pep257": false,
 	"pep257_ignore": [
-		"D100",	"D101",	"D102",	"D103", // ignore missing docstrings
+		// "D100",	"D101",	"D102",	"D103", // ignore missing docstrings
+		"D200", // ClusterHQ uses multi-line single-line docstrings
 		"D203", // not present in PEP257 now, not commonly implemented
 	]
 
