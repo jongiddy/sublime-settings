@@ -5,7 +5,11 @@ Personal settings for Sublime Text 3
 ## Installed Packages
 - Anaconda
 - Better CoffeeScript
+- Floobits
 - Markdown Preview
+- OmniMarkupPreviewer
+- Package Control
+- RestructuredText Improved
 - SideBarEnhancements
 - SideBarGit
 - VCS Gutter
