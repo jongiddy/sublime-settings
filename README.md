@@ -6,7 +6,6 @@ Personal settings for Sublime Text 3
 - Anaconda
 - Better CoffeeScript
 - Floobits
-- Markdown Preview
 - OmniMarkupPreviewer
 - Package Control
 - RestructuredText Improved
@@ -18,6 +17,6 @@ Personal settings for Sublime Text 3
 
 Ensure `git` and `gitk` are in `PATH`.
 
-Install `pandoc` from http://johnmacfarlane.net/pandoc/installing.html
+Install `pandoc` from <http://johnmacfarlane.net/pandoc/installing.html>
 
 Restart Sublime Text to ensure it can see the new PATH.
