@@ -14,20 +14,12 @@ Personal settings for Sublime Text 3
 ### Top Priority
 
 - Anaconda
+- Modific
 - OmniMarkupPreviewer
-- RestructuredText Improved
 - SideBarEnhancements
-- VCS Gutter
 
 ### Lower Priority
 
 - Better CoffeeScript
 - Floobits
-- SideBarGit
-
-## Other Actions
-
-For SideBarGit, ensure `git` and `gitk` are in `PATH`.
-Restart Sublime Text to ensure it can see the new PATH.
-
-Install `pandoc` from <http://johnmacfarlane.net/pandoc/installing.html>
+- RestructuredText Improved
