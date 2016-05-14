@@ -6,7 +6,7 @@
 	// PEP8 recommended line lengths + common exceptions
 	"rulers":
 	[
-		72, 79, 99, 119
+		72, 79, 99, 119, 159
 	],
 	// Anaconda
 	"anaconda_gutter_marks": true,
@@ -20,7 +20,8 @@
 	// Prefer to use rulers to identify over-long lines, but complain about
 	// lines that are longer than 120 characters
 	"pep8_max_line_length": 79,
-	"complete_parameters": true,
+	// Parameter completion tends to be confusing when mixed with tab to autocomplete
+	"complete_parameters": false,
 	"display_signatures": true,
 	"validate_imports": false,
 	"pep257": false,
