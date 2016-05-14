@@ -22,4 +22,5 @@ Personal settings for Sublime Text 3
 
 - Better CoffeeScript
 - Floobits
+- Puppet
 - RestructuredText Improved
