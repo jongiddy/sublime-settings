@@ -1,9 +1,35 @@
 {
 	"always_show_minimap_viewport": true,
-	"auto_complete_commit_on_tab": false,
-	"color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.svg"
+	],
 	"default_line_ending": "unix",
-	"font_size": 10,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".tox",
+		"build",
+		"_trial_temp"
+	],
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage",
