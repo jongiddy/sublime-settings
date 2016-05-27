@@ -20,7 +20,9 @@ Personal settings for Sublime Text 3
 
 ### Lower Priority
 
+- Apache Pig
 - Better CoffeeScript
 - Floobits
+- Monokai JSON+
 - Puppet
 - RestructuredText Improved
