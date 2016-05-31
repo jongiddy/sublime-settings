@@ -14,6 +14,7 @@ Personal settings for Sublime Text 3
 ### Top Priority
 
 - Anaconda
+- AutoFileName
 - Modific
 - OmniMarkupPreviewer
 - SideBarEnhancements
