@@ -11,19 +11,22 @@ Personal settings for Sublime Text 3
 
 ## Installed Packages
 
-### Top Priority
+### General Purpose
 
-- Anaconda
-- AutoFileName
-- Modific
-- OmniMarkupPreviewer
-- SideBarEnhancements
+- AutoFileName - provide auto-completion of filenames
+- Compressor - open compressed files
+- Floobits - shared editing
+- Modific - Version Control interaction (Ctrl-Alt-D diff, Ctrl-Alt-R revert)
+- OmniMarkupPreviewer - markup rendering (Ctrl-Alt-O render in browser)
+- SideBarEnhancements - file management
 
-### Lower Priority
+### Language-specific
 
+- Anaconda (Python)
 - Apache Pig
 - Better CoffeeScript
-- Floobits
+- Dockerfile Syntax Highlighting
 - Monokai JSON+
+- orgmode
 - Puppet
 - RestructuredText Improved

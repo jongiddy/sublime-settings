@@ -1,6 +1,5 @@
 {
 	"spell_check": true,
-	"trim_trailing_white_space_on_save": true,
 	"rulers":
 	[
 		70, 80
