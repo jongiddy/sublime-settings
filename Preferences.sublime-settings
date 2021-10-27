@@ -1,23 +1,12 @@
 {
+	"added_words":
+	[
+		"bashrc"
+	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
-	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip",
-		"*.svg"
-	],
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"folder_exclude_patterns":
 	[
@@ -26,14 +15,14 @@
 		".hg",
 		"CVS",
 		".tox",
-		"build",
 		"_trial_temp"
 	],
-	"font_size": 12,
+	"font_size": 17,
 	"ignored_packages":
 	[
+		"RestructuredText",
+		"Rust",
 		"Vintage",
-		"RestructuredText"
 	],
 	"preview_on_click": false,
 	"rulers":
@@ -41,5 +30,6 @@
 		80
 	],
 	"show_encoding": true,
-	"show_line_endings": true
+	"show_line_endings": true,
+	"theme": "Default.sublime-theme",
 }

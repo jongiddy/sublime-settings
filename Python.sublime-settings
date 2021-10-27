@@ -3,11 +3,6 @@
 	"default_line_ending": "unix",
 	"translate_tabs_to_spaces": true,
 	"ensure_newline_at_eof_on_save": true,
-	// PEP8 recommended line lengths + common exceptions
-	"rulers":
-	[
-		72, 79, 99, 119, 159
-	],
 	// Anaconda
 	"anaconda_gutter_marks": true,
 	"anaconda_gutter_theme": "simple",
@@ -15,11 +10,10 @@
 	"anaconda_linter_underlines": true,
 	"auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
 	"pep8_ignore": [
+		"E123",  // https://github.com/PyCQA/pycodestyle/issues/103
 		"E126",  // E126 doesn't like PEP8-approved double-tab on continuation
+		"W503",  // allow operators after newline
 	],
-	// Prefer to use rulers to identify over-long lines, but complain about
-	// lines that are longer than 120 characters
-	"pep8_max_line_length": 79,
 	// Parameter completion tends to be confusing when mixed with tab to autocomplete
 	"complete_parameters": false,
 	"display_signatures": true,
@@ -27,7 +21,7 @@
 	"pep257": false,
 	"pep257_ignore": [
 		// "D100",	"D101",	"D102",	"D103", // ignore missing docstrings
-		"D200", // ClusterHQ uses multi-line single-line docstrings
+		// "D200", // ClusterHQ uses multi-line single-line docstrings
 		"D203", // not present in PEP257 now, not commonly implemented
 	]
 

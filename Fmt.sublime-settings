@@ -1,0 +1,7 @@
+// Fmt Settings - User
+{
+  "rules": [
+      {"selector": "source.go", "cmd": ["/home/jon/go/bin/goimports"], "format_on_save": true},
+      {"selector": "source.rs", "cmd": ["/home/jon/.cargo/bin/rustfmt"], "format_on_save": true}
+  ],
+}

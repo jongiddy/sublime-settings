@@ -13,19 +13,30 @@ Personal settings for Sublime Text 3
 
 ### General Purpose
 
+- Fmt
+- GitHubinator
+- OmniMarkupPreviewer - markup rendering (Ctrl-Alt-O render in browser)
+- Print to HTML
+- SideBarEnhancements - file management
+- UnitTesting
+
+previously:
 - AutoFileName - provide auto-completion of filenames
 - Compressor - open compressed files
 - Floobits - shared editing
 - Modific - Version Control interaction (Ctrl-Alt-D diff, Ctrl-Alt-R revert)
-- OmniMarkupPreviewer - markup rendering (Ctrl-Alt-O render in browser)
-- SideBarEnhancements - file management
 
 ### Language-specific
 
 - Anaconda (Python)
-- Apache Pig
-- Better CoffeeScript
 - Dockerfile Syntax Highlighting
+- Ginkgo Completions
+- JSON Reindent
+- PowerShell
+- Rust Enhanced
+- TOML
+
+previously:
 - Monokai JSON+
 - orgmode
 - Puppet

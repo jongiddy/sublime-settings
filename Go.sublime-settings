@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the Go syntax
+{
+	"auto_complete_commit_on_tab": true,
+	"trim_trailing_white_space_on_save": true
+}
